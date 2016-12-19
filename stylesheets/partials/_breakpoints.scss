@@ -1,0 +1,158 @@
+@media (max-width: 519px) {
+    nav {
+        position: relative;
+        top: -25px;
+    }
+
+    video {
+        top: 70px;
+    }
+
+    .container {
+        overflow: hidden;
+
+        img {
+            z-index: 2;
+            width: 90px;
+            margin-right: 0;
+            margin-top: 15px;
+
+        }
+    }
+
+    .headercontent {
+        padding: 5px 15%;
+        h1 {
+            font-size: 35px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 18px;
+              background-color:rgba(51, 51, 51, 0.6);
+            padding: 0px 25px;
+
+        }
+    }
+    h2 {
+      font-size:30px;
+    }
+}
+@media (min-width: 520px) and (max-width: 615px) {
+header {
+  height: 350px;
+}
+    nav {
+        position: relative;
+        top: -25px;
+    }
+
+    video {
+        top: 70px;
+    }
+
+    .container {
+        overflow: hidden;
+        img {
+            z-index: 2;
+            width: 90px;
+            margin-right: 0;
+            margin-top: 15px;
+        }
+    }
+
+    .headercontent {
+        padding: 40px 15% 50px;
+
+        h1 {
+            font-size: 35px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 45px;
+        }
+    }
+}
+@media (min-width: 615px) and (max-width: 766px) {
+  header {
+    height: 415px;
+  }
+      nav {
+          position: relative;
+          top: -25px;
+      }
+
+      video {
+          top: 70px;
+      }
+
+      .container {
+          overflow: hidden;
+          img {
+              z-index: 2;
+              width: 90px;
+              margin-right: 0;
+              margin-top: 15px;
+          }
+      }
+
+      .headercontent {
+          padding: 70px 15% 50px;
+
+          h1 {
+              font-size: 45px;
+          }
+
+          p {
+              font-size: 20px;
+              margin-bottom: 45px;
+
+          }
+      }
+
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+
+   .container {
+     width: 100%;
+   }
+
+    header {
+        height: 400px;
+    }
+
+    .headercontent {
+        padding: 0 15%;
+    }
+
+    h1 {
+        font-size: 70px;
+
+    }
+
+    p {
+        font-size: 20px;
+        margin-bottom: 45px;
+    }
+}
+@media (min-width: 880px) and (max-width: 1023px) {
+  header {
+    height:490px
+  }
+}
+@media (min-width: 1024px) {
+    header {
+      height: 575px;
+    }
+
+    .headercontent {
+        padding: 12% 15%;
+    }
+
+    h1 {
+        font-size: 70px;
+    }
+    p {
+        font-size: 20px;
+        margin-bottom: 45px;
+    }
+}
